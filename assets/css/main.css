@@ -1,0 +1,354 @@
+section {
+    padding: 3rem 1.5rem;
+}
+.collab_section {
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 37px;
+}
+.collab_desc,
+.collab_img {
+    width: 50%;
+}
+
+.collab_desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.collab_desc h2 {
+    color: var(--textBlack);
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+}
+.collab_desc p {
+    color: var(--gray20);
+    font-family: var(--fontOpenSans);
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.48px;
+    margin-bottom: 1.25rem;
+}
+.collab_desc button {
+    width: 220px;
+    height: 64px;
+    color: var(--mainWhite);
+    background-color: var(--mainGreen);
+    border-radius: 0.5rem;
+    padding: 1.25rem 1.5rem;
+    border: none;
+    font-family: var(--fontMain);
+    font-size: 1.125rem;
+    cursor: pointer;
+    transition: all .3s;
+}
+.collab_desc button:hover {
+    opacity: .7;
+}
+.collab_img img {
+    width: 100%;
+}
+
+.section_title {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 4rem;
+}
+.section_desc {
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    letter-spacing: -0.36px;
+    margin: 1.5rem 0;
+}
+
+/* CARDS */
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    width: 32%;
+    padding: 4rem 1.5rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    background: var(--mainWhite);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.10);
+}
+.card_icon {
+    margin-bottom: .5rem;
+}
+.card_title {
+    margin: 1rem 0;
+    color: var(--Black, #303031);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+/* MEMBERS SECTION */
+
+.section_info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.section_icon {
+    width: 80px;
+    height: 80px;
+}
+
+.members_content {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem 2.375rem;
+}
+.members_content h4 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.5rem; 
+    letter-spacing: -0.64px;
+}
+.member {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.member_info {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+.member_name { 
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 26px; 
+    letter-spacing: -0.48px;
+}
+.member_share { 
+    color: var(--gray20);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.32px;
+}
+
+/* USER SECTION */
+
+.user_content {
+    width: 40%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.user {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.user_info {
+    display: flex;
+    flex-direction: column;
+}
+.user_info span:first-child {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.48px;
+}
+.user_info span:last-child {
+    color: var(--gray20);
+    font-style: italic;
+    font-weight: 100;
+    line-height: 24px;
+    letter-spacing: -0.32px;
+}
+.user_desc {
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.32px;
+}
+.user_details {
+    max-width: 280px;
+    text-align: left;
+}
+.user_details th {
+    color: var(--gray20);
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.32px;
+}
+.user_details td {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.48px;
+}
+.user_btn {
+    height: 56px;
+    padding: 0.75rem 1.5rem;
+    border-radius: 16px;
+}
+
+/* CONTRIBUTORS SECTION */
+
+.contributors_section .section_info {
+    width: 45%;
+}
+.contributors {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.task {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 2rem;   
+}
+.task h4 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.36px;
+    margin-bottom: 1rem;
+}
+.task p {
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.32px;
+}
+.task div {
+    width: 70%;
+}
+.task .bounty {
+    align-self: flex-start;
+}
+
+/* APPLİCANTS*/
+
+.applicants_content {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+.applicants {
+    padding: 32px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    flex: 3;
+    background-color: #F3F0EA !important;
+}
+.applicants h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px; 
+    letter-spacing: -0.48px;
+}
+.applicant {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.applicant_name {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+}
+
+.profile {
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex: 2;
+    padding: 1.5rem;
+    border-color: var(--mainGreen) !important;
+}
+.profile_img {
+    width: 72px;
+    height: 72px;
+}
+.profile_title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+}
+.profile_occupation {
+    color: var(--gray20);
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.32px;
+}
+.profile_details {
+    line-height: 24px;
+    letter-spacing: -0.32px;
+}
+.profile_btn {
+    border-radius: 1rem;
+    padding: 0.75rem 1.5rem;
+}
+
+/* HELP US SECTION */
+
+.help_us_cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+}
+.help_us_card {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    gap: 1rem;
+    border-radius: 1rem;
+    background: var(--mainWhite);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.10);
+    padding: 1.5rem;
+}
+.help_us_card-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.36px;
+}
+.help_us_card-desc {
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.32px;
+}
+.help_us_card-other {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.help_us_card-other span:last-child {
+    font-style: italic;
+    font-weight: 100;
+    line-height: 24px;
+    letter-spacing: -0.32px;
+}
+.help_us-btn {
+    border-radius: 8px;
+    padding: 20px 24px;
+    margin-top: 2rem;
+}

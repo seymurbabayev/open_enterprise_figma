@@ -1,0 +1,48 @@
+@import 'reset.css';
+@import 'variable.css';
+@import 'header.css';
+@import 'main.css';
+@import 'responsive.css';
+
+body {
+  font-family: var(--fontMain);
+  background-color: var(--gray5);
+  color: var(--textBlack);
+}
+button {
+  background: var(--textBlack);
+  color: var(--mainWhite);
+  border: none;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.text-center {
+  text-align: center;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.d-flex-around {
+  display: flex;
+  justify-content: space-around;
+}
+.frame {
+  border-radius: 1rem;
+  border: 4px solid var(--textBlack);
+  background: var(--mainWhite);
+}
+
+.bounty {
+  border-radius: 40px;
+  background: var(--mainGreen);
+  padding: 4px 8px;
+  text-transform: uppercase;
+  color: var(--mainWhite);
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.32px;
+}

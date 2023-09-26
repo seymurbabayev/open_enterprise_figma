@@ -1,0 +1,76 @@
+@media screen and (max-width: 900px) {
+    section {
+        padding: 1rem 0;
+    }
+    .logo_title {
+        display: none;
+    }
+    .navbar {
+        display: none;
+    }
+    .ham-btn {
+        display: block;
+    }
+    .collab_section {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .collab_desc,
+    .collab_img {
+        width: 100%;
+    }
+    .collab_desc {
+        align-items: center;
+    }
+    .cards {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .card {
+        width: 100%;
+        padding: 1.5rem;
+    }
+    .row {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .row > div {
+        width: 100% !important;
+    }
+    .section_info {
+        /* width: 100%; */
+        text-align: center;
+        align-items: center;
+    }
+    .users_section {
+        flex-direction: column-reverse;
+    }
+    .help_us_cards {
+        flex-direction: column;
+        
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .nav-list {
+        gap: 20px;
+    }
+    .collab_desc h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .collab_desc p {
+        font-size: 18px;
+        letter-spacing: -0.36px;
+        margin-bottom: 20px;
+    }
+
+    .section_title {
+        font-size: 30px;
+        line-height: 48px;
+    }
+    .section_desc {
+        line-height: 32px;
+    }
+}
