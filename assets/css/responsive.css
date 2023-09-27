@@ -33,13 +33,11 @@
     .row {
         flex-direction: column;
         align-items: center;
-        gap: 2rem;
     }
     .row > div {
         width: 100% !important;
     }
     .section_info {
-        /* width: 100%; */
         text-align: center;
         align-items: center;
     }
@@ -47,8 +45,17 @@
         flex-direction: column-reverse;
     }
     .help_us_cards {
+        flex-direction: column;   
+    }
+
+    .footer, .footer_nav-list {
         flex-direction: column;
-        
+    }
+    .footer {
+        gap: 2rem;
+    }
+    .footer_nav-list {
+        gap: 0.625rem;
     }
 }
 

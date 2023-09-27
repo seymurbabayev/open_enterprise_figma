@@ -32,22 +32,6 @@ section {
     letter-spacing: -0.48px;
     margin-bottom: 1.25rem;
 }
-.collab_desc button {
-    width: 220px;
-    height: 64px;
-    color: var(--mainWhite);
-    background-color: var(--mainGreen);
-    border-radius: 0.5rem;
-    padding: 1.25rem 1.5rem;
-    border: none;
-    font-family: var(--fontMain);
-    font-size: 1.125rem;
-    cursor: pointer;
-    transition: all .3s;
-}
-.collab_desc button:hover {
-    opacity: .7;
-}
 .collab_img img {
     width: 100%;
 }
@@ -61,6 +45,11 @@ section {
     font-size: 1.125rem;
     line-height: 1.625rem;
     letter-spacing: -0.36px;
+}
+
+/* REIMAGINING */
+
+.reimagining_section .section_desc {
     margin: 1.5rem 0;
 }
 
@@ -90,6 +79,10 @@ section {
     font-style: normal;
     font-weight: 700;
     line-height: 2rem;
+}
+.card_desc {
+    font-size: 18px;
+    line-height: 26px;
 }
 
 /* MEMBERS SECTION */
@@ -199,6 +192,11 @@ section {
     height: 56px;
     padding: 0.75rem 1.5rem;
     border-radius: 16px;
+
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.48px;
 }
 
 /* CONTRIBUTORS SECTION */
@@ -309,6 +307,9 @@ section {
 
 /* HELP US SECTION */
 
+.help_us_section .section_desc {
+    margin: 1.5rem 0;
+}
 .help_us_cards {
     display: flex;
     justify-content: space-between;
@@ -348,7 +349,24 @@ section {
     letter-spacing: -0.32px;
 }
 .help_us-btn {
-    border-radius: 8px;
-    padding: 20px 24px;
+    border-radius: 0.5rem;
+    padding: 1.25rem 1.5rem;
     margin-top: 2rem;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px; 
+}
+
+/* DIVIDER */
+.divider_block {
+    padding: 2rem 0;
+}
+.divider {
+    width: 100%;
+}
+
+/* START SECTION */
+
+.section_img img {
+    width: 100%;
 }
